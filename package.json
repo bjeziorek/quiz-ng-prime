@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "primeng": "^19.0.5",
-    "tailwindcss-primeui": "^0.4.0"
-  }
-}
