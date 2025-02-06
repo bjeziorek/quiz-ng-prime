@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "superquiz:build:production"
+              "buildTarget": "superquiz:build:production"
             },
             "development": {
-              "browserTarget": "superquiz:build:development"
+              "buildTarget": "superquiz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "superquiz:build"
+            "buildTarget": "superquiz:build"
           }
         },
         "test": {
